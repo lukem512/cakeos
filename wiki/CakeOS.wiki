@@ -8,21 +8,21 @@ Expect updates to be posted here :)
 
 = Specification =
 
-# 32 bit
-# multiboot compliant
-# memory manager w/ paging support
-# ELF relocation
-# initrd/vfs
-# dynamic heap
-# basic drivers
-# PCI
+  # 32 bit
+  # multiboot compliant
+  # memory manager w/ paging support
+  # ELF relocation
+  # initrd/vfs
+  # dynamic heap
+  # basic drivers
+  # PCI
 
 = In Development =
 
 Cake currently has several things in development, some of which are listed below:
 
-# VESA driver
-# pre-emptive multitasking
-# virtual 8086 taks and monitor
-# ps/2 mouse driver
-# desktop
+  # VESA driver
+  # pre-emptive multitasking
+  # virtual 8086 taks and monitor
+  # ps/2 mouse driver
+  # desktop
