@@ -1,28 +1,5 @@
-#summary Homepage
+= Lukem95 =
 
-= About =
+Luke Mitchell (Lukem95, Lukem_95, Lukem) is the creator and copyright holder of CakeOS. Born in May 1992 he was 15 when Cake was born.
 
-Welcome to the CakeOS google code page. Cake is still in its Alpha stage, with development being fairly slow, as other hobbys/work/school are taking their toll on my free time.
-Expect updates to be posted here :)
-
-
-= Specification =
-
-  # 32 bit
-  # multiboot compliant
-  # memory manager w/ paging support
-  # ELF relocation
-  # initrd/vfs
-  # dynamic heap
-  # basic drivers
-  # PCI
-
-= In Development =
-
-Cake currently has several things in development, some of which are listed below:
-
-  # VESA driver
-  # pre-emptive multitasking
-  # virtual 8086 taks and monitor
-  # ps/2 mouse driver
-  # desktop
+His interests include programming, operating systems, graphic design, web design, photography, film, music and partying (not really relevent i know, but hey).
