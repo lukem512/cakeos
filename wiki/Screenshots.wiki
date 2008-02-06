@@ -1,0 +1,11 @@
+#summary Screenshots of CakeOS in action
+
+= 06.02.08 =
+
+http://img178.imageshack.us/img178/3456/cakevgazn2.jpg
+
+New VGA test driver
+
+http://img178.imageshack.us/img178/5989/feb2008ht6.jpg
+
+Bootup screen, showing a userland task.
