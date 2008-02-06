@@ -11,18 +11,19 @@ Expect updates to be posted here :)
   # 32 bit
   # multiboot compliant
   # memory manager w/ paging support
-  # ELF relocation
+  # binary file loading
   # initrd/vfs
   # dynamic heap
-  # basic drivers
-  # PCI
+  # PIT timer
+  # CPUID identification
+  # multi-tasking
+  # VGA test driver
+
 
 = In Development =
 
 Cake currently has several things in development, some of which are listed below:
 
   # VESA driver
-  # pre-emptive multitasking
-  # virtual 8086 taks and monitor
   # ps/2 mouse driver
   # desktop
