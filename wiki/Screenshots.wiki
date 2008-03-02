@@ -2,10 +2,10 @@
 
 = 06.02.08 =
 
-http://img178.imageshack.us/img178/3456/cakevgazn2.jpg
+http://www.screenshots.cc/out.php/i229_cakevga.jpg
 
 New VGA test driver
 
-http://img178.imageshack.us/img178/5989/feb2008ht6.jpg
+http://www.screenshots.cc/out.php/i230_feb2008.jpg
 
 Bootup screen, showing a userland task.
