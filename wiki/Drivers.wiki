@@ -1,0 +1,63 @@
+#summary Driver ideas and design
+
+= Introduction =
+
+Cake is a modular monolithic kernel, and as such needs a way for drivers to be hot-plugged into the kernel.
+
+Several of the drivers need to be available at boot-time however, in order to load the other drivers. Drivers should be available for download, where they can be placed in a folder in the .img or .iso file, or where they can be loaded during run time.
+
+The drivers that need to be available as GRUB modules (from boot) are:
+ * [S]ATA
+ * Floppy Driver Controller (For legacy)
+ * CD/DVD (ATAPI)
+ * FAT12 FS
+ * RAM FS
+
+The other drivers can be loaded from the boot medium in a /sys/drv folder.
+
+
+= Driver Interface =
+
+Drivers need to comply to a common interface.
+
+Once loaded they will call a syscall with a pointer to the driver structure in memory. This structure has the locations of specific driver functions.
+
+Required functions are:
+ * IOCTL
+ * INIT
+ * DEINIT
+ * OPEN
+ * CLOSE
+
+Optional functions are:
+ * READ
+ * WRITE
+
+
+===========================================================================================
+code i might need for ideas:
+===========================================================================================
+
+enum devtype { Block, Char };
+
+typedef struct device_ops {
+	int		 (*open)	(struct device *device, int flags);
+	int		 (*close)	(struct device *device);
+	ssize_t		 (*read)	(struct device *device, void *buf, size_t count, off_t offset);
+	ssize_t		 (*write)	(struct device *device, const void *buf, size_t count, off_t offset);
+	int		 (*stat)	(struct device *device, struct stat *statbuf);
+	struct vm_page	*(*mmap)	(struct device *device, off_t offset);
+	int		 (*ioctl)	(struct device *device, int request, char *argp);
+} device_ops_t;
+
+/* Defines a device */
+typedef struct device {
+	list_t header;
+	const char *name;
+
+	refcount_t count;
+	enum devtype type;
+
+	device_ops_t *ops;
+	void *data;
+} device_t;
