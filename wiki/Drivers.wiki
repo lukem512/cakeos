@@ -39,7 +39,7 @@ Optional functions are:
 code i might need for ideas:
 ===========================================================================================
 
-enum devtype { Block, Char };
+'enum devtype { Block, Char };
 
 typedef struct device_ops {
 	int		 (*open)	(struct device *device, int flags);
@@ -61,4 +61,4 @@ typedef struct device {
 
 	device_ops_t *ops;
 	void *data;
-} device_t;
+} device_t;'
