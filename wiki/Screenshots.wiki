@@ -1,5 +1,11 @@
 #summary Screenshots of CakeOS in action
 
+= 08.03.08 =
+
+http://www.screenshots.cc/out.php/i2551_shell2.jpg
+
+Shell alpha release
+
 = 06.02.08 =
 
 http://www.screenshots.cc/out.php/i229_cakevga.jpg
