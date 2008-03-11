@@ -8,7 +8,7 @@ Cake is a modular monolithic kernel, and as such needs a way for drivers to be h
 Several of the drivers need to be available at boot-time however, in order to load the other drivers. Drivers should be available for download, where they can be placed in a folder in the .img or .iso file, or where they can be loaded during run time.
 
 The drivers that need to be available as GRUB modules (from boot) are:
- * [S]ATA
+ * (S)ATA
  * Floppy Driver Controller (For legacy)
  * CD/DVD (ATAPI)
  * FAT12 FS
@@ -38,7 +38,7 @@ Optional functions are:
 code i might need for ideas:
 ----
 
-`enum devtype { Block, Char };
+enum devtype { Block, Char };
 
 typedef struct device_ops {
 	int		 (*open)	(struct device *device, int flags);
@@ -60,4 +60,4 @@ typedef struct device {
 
 	device_ops_t *ops;
 	void *data;
-} device_t;`
+} device_t;
