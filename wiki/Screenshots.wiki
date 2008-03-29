@@ -1,17 +1,20 @@
 #summary Screenshots of CakeOS in action
 
+= 29.03.08 =
+
+http://cakeos.googlecode.com/files/guishell.jpg
+
+New GUI shell (Still some issues)
+
 = 08.03.08 =
 
-http://www.screenshots.cc/out.php/i2551_shell2.jpg
 
 Shell alpha release
 
 = 06.02.08 =
 
-http://www.screenshots.cc/out.php/i229_cakevga.jpg
 
 New VGA test driver
 
-http://www.screenshots.cc/out.php/i230_feb2008.jpg
 
 Bootup screen, showing a userland task.
