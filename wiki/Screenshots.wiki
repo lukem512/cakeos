@@ -1,6 +1,14 @@
 #summary Screenshots of CakeOS in action
 #labels Featured
 
+= 04.04.08 =
+
+http://cakeos.googlecode.com/files/wmfocus1.jpg
+
+http://cakeos.googlecode.com/files/wmfocus2.jpg
+
+Focus changes + PS/2 mouse
+
 = 29.03.08 =
 
 http://cakeos.googlecode.com/files/guishell.jpg
