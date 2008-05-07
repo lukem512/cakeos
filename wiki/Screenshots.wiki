@@ -1,6 +1,12 @@
 #summary Screenshots of CakeOS in action
 #labels Featured
 
+= 06.05.08 =
+
+http://cakeos.googlecode.com/files/elf.jpg
+
+ELF relocation
+
 = 04.04.08 =
 
 http://cakeos.googlecode.com/files/wmfocus1.jpg
