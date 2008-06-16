@@ -34,6 +34,12 @@ Optional functions are:
  * READ
  * WRITE
 
+Drivers will be compiled as an ELF .SO, so that the functions may be called externally.
+
+= Graphical Example =
+
+http://cakeos.googlecode.com/files/mock%20up%20one%20copy.png
+
 ----
 code i might need for ideas:
 ----
